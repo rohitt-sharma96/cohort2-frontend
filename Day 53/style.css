@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 400px;
+    width: 300px;
+    border: 1px solid white;
+    background-color: var(--changeBg);
+    animation: animateBg 10s;
+}
+
+/* color, length, angle */
+@property --changeBg {
+    syntax: "<color>";
+    initial-value: rgb(37, 225, 4);
+    inherits: false;
+}
+
+@keyframes animateBg {
+    from {
+        --changeBg: red;
+    }
+
+    to {
+        --changeBg: blue;
+    }
+}

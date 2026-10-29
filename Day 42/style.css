@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+h1{
+    color: #fff;
+}
+
+button{
+    padding: 10px 15px;
+    margin-top: 50px;
+    background-color: royalblue;
+}

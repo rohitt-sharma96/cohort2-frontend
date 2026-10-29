@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1{
+    font-size: 100px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: crimson;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+
+    &:hover {
+        background-color: rgb(38, 0, 255);
+    }
+
+    &:active {
+       scale: 0.95;
+    }
+
+}

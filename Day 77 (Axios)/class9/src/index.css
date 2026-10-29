@@ -1,0 +1,14 @@
+.card-user{
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.all-cards{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+
+}

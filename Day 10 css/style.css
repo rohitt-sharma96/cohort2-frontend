@@ -1,0 +1,43 @@
+@font-face {
+    font-family: lemonmilk;
+    src: url(./NeueMachina-Light_gwWCZxVuQl.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+    height: 100%;
+    width:100%;
+}
+
+
+h1{
+    background-color: black;
+    color: red;
+    font-family: 'dirtylane';
+} 
+h2{
+    background-color: black;
+    color: red;
+    font-family: coolvetica;
+    
+}
+h3{
+    background-color: black;
+    color: red;
+    font-family: Minecraft;
+}
+h4{
+    background-color: black;
+    color: red;
+    font-family: newMachina;
+    font-size: 100px;
+    font-weight: 100;
+    
+}

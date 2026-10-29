@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+button {
+    padding: 15px 30px;
+    background-color: crimson;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    z-index: 9;
+
+    &:active {
+        scale: .90;
+        ;
+    }
+}

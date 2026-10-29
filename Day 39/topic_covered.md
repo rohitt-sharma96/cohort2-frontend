@@ -1,0 +1,3 @@
+- Recognize how objects are stored, Traverse Keys of an object, Arrays an Object
+- Timing Events - `setTimeout`, `setInterval`, `clearTimeout`, `clearInterval`
+- Operation in Objects - [`freeeze`, `seal`, `destructuring`, `object methods`, `this keywords`]

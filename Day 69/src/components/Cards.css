@@ -1,0 +1,128 @@
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 20px;
+}
+
+
+
+.card {
+    height: 22rem;
+    width: 25%;
+    background-color: lightseagreen;
+    border-radius: 30px;
+}
+
+.card1 {
+    background-color: #1B293C;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 40px 30px;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    white-space: no-wrap;
+}
+
+.card1 .text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.card1 .light-para {
+    color: whitesmoke;
+
+}
+
+.card1 .home {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.card1 .toggle {
+    font-size: 3rem;
+    margin-top: 1.4rem;
+}
+
+
+.card2 {
+    background-image: url('../../man-img.jpg');
+    height: 22rem;
+    width: 25%;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2 p {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.077), rgba(255, 255, 255, 0.101));
+    backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.card3 {
+    background-color: #E5E7EC;
+    height: 22rem;
+    width: 25%;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.card3 .text-3 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.card3 .text-3 h1 {
+    font-size: 3rem;
+}
+
+.card3 .text-3 .para-1 {
+    font-size: 1.9rem;
+}
+
+.card3 .text-3 .para-2 {
+    font-size: 1.2rem;
+}
+
+
+
+.card3 .graph .beginner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    line-height: 1.8;
+}
+
+.card3 .graph .intermediate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    line-height: 1.8;
+}
+
+.card3 .graph .advanced {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    line-height: 1.8;
+}
+

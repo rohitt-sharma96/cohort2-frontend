@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right bottom, gray, black);
+    padding: 15px 0;
+}
+
+section {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+}
+
+.all-reels {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+
+}
+
+.all-reels::-webkit-scrollbar {
+    display: none;
+}
+
+.reel {
+    height: 100%;
+    width: 100%;
+    /* background-color: lightseagreen; */
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    scroll-snap-align: start;
+}
+
+.reel video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.reel .bottom {
+    padding: 20px 10px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.176), rgba(0, 0, 0, 0.705));
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom .user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+
+.bottom .user button {
+    padding: 4px 8px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+
+    &:active {
+        scale: .95;
+    }
+}
+
+.bottom h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.bottom .user img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-position: top;
+    object-fit: cover;
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    padding: 20px;
+    color: white;
+
+    font-size: 25px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+
+}
+
+.right>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right h4 {
+    cursor: pointer;
+}
+
+.love{
+    color: red;
+}
+
+.right>div h4{
+    pointer-events: none;
+}
+.right>div h6{
+    pointer-events: none;
+}
+
+.mute{
+    height: 50px ;
+    width: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.mute i{
+    pointer-events: none;
+    font-size: 25px;
+}

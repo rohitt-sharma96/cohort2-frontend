@@ -1,0 +1,62 @@
+@import 'button';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+
+@mixin flexCenter() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+// main {
+//     height: 100%;
+//     width: 100%;
+//     background-color: black;
+//     @include flexCenter();
+
+
+//     section {
+//         background-color: white;
+//         height: 50%;
+//         width: 50%;
+//         @include flexCenter();
+
+
+//         h1 {
+//             color: red;
+//             font-weight: 600;
+//         }
+//     }
+
+
+// }
+
+
+// @mixin button-style($bg-color){
+//     background-color: $bg-color;
+//     border-radius: 7px;
+//     border: none;
+//     color: white;
+//     padding: 20px 30px;
+// }
+
+.blue {
+    @include btn-style(blue, 20px, white);
+}
+
+
+.red {
+    @include btn-style(red, 20px, white);
+}
