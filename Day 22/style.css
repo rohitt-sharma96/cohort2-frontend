@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "helvetica neue";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "aside hero hero hero" "aside left bottom right";
+}
+.main .aside {
+  grid-area: aside;
+  background-color: springgreen;
+  background-image: url(https://images.unsplash.com/photo-1760800954391-c0975e57d0bf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.main .hero {
+  grid-area: hero;
+  background-color: crimson;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170);
+  background-position: center;
+  border-radius: 10px;
+}
+.main .left {
+  grid-area: left;
+  background-color: darkblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1760630149965-1421d68672ff?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170);
+  background-position: right;
+  border-radius: 10px;
+}
+.main .bottom {
+  grid-area: bottom;
+  background-color: darkcyan;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1760465881538-8b17b33b0337?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1974);
+  border-radius: 10px;
+}
+.main .right {
+  grid-area: right;
+  background-color: darkgoldenrod;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1756982784186-f313d27020f8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170);
+  background-position: right;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
